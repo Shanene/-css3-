@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>domo.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+	<style>
+	*{padding:0;margin:0;}
+	body{
+	background:url("images/f1_1.jpg") no-repeat top center;
+	}
+	header{
+	position:relative;
+	margin:0 auto;
+	width:1220px;
+	height:671px;
+	}
+	.pic{
+	 position:absolute;
+	 top:140px;
+	 left:240px;
+	 animation: PIC 3s linear infinite;
+	}
+	@keyframes PIC{
+	0%{transform:scale(0);opacity:0;}
+	50%{transform:scale(1.2);opacity:1;}
+	70%{transform:scale(0.8);}
+	100%{transform:scale(1);}
+	}
+	header .yun1{
+	position:absolute;
+	top:50px;
+	left:300px;
+	background:url("images/yun1.png")no-repeat;
+	width:66px;
+	height:41px;
+	animation:YUN1 4s linear infinite;
+	}
+	@keyframes YUN1{
+	0%{left:300px;}
+	50%{left:350px;}
+	100%{left:300px;}
+	}
+	header .yun2{
+	position:absolute;
+	top:160px;
+	left:100px;
+	background:url("images/yun2.png")no-repeat;
+	width:85px;
+	height:48px;
+	animation:YUN2 4s linear infinite;
+	}
+	@keyframes YUN2{
+	0%{left:100px;}
+	50%{left:150px;}
+	100%{left:100px;}
+	}
+	header .yun3{
+	position:absolute;
+	top:120px;
+	right:100px;
+	background:url("images/yun3.png")no-repeat;
+	width:126px;
+	height:72px;
+	animation:YUN3 4s linear infinite;
+	}
+	@keyframes YUN3{
+	0%{right:100px;}
+	50%{right:150px;}
+	100%{right:100px;}
+	}
+	header .san{
+	position:absolute;
+	z-index:-1;
+	top:120px;
+	left:230px;
+	background:url("images/san.png")no-repeat;
+	width:133PX;
+	height:171px;
+	animation:SAN 3s linear infinite;
+	}
+	@keyframes SAN{
+	0%{top:120px;}
+	50%{top:100px;}
+	100%{top:120px;}
+	}
+	header .lu{
+	position:absolute;
+	z-index:-1;
+	top:70px;
+	right:270px;
+	background:url("images/lu.png")no-repeat;
+	width:204px;
+	height:200px;
+	animation:LU 1s linear infinite;
+	transform-origin:0 204px;
+	}
+	@keyframes LU{
+	0%{transform:rotate(0deg);}
+	50%{transform:rotate(5deg);}
+	100%{transform:rotate(0.2deg);}
+	}
+	header .mai1{
+	position:absolute;
+	bottom:50px;
+	right:220px;
+	background:url("images/1.png")no-repeat;
+	width:134px;
+	height:168px;
+	animation:MAI 2s linear infinite;
+	}
+	header .mai2{
+	position:absolute;
+	bottom:50px;
+	right:440px;
+	background:url("images/2.png")no-repeat;
+	width:134px;
+	height:168px;
+	animation:MAI 1s linear infinite;
+	}
+	header .mai3{
+	position:absolute;
+	bottom:50px;
+	left:205px;
+	background:url("images/3.png")no-repeat;
+	width:134px;
+	height:168px;
+	animation:MAI 1s linear infinite;
+	}
+	header .mai4{
+	position:absolute;
+	bottom:50px;
+	left:425px;
+	background:url("images/4.png")no-repeat;
+	width:134px;
+	height:168px;
+	animation:MAI 2s linear infinite;
+	}
+	@keyframes MAI{
+	0%{bottom:50px;}
+	50%{bottom:60px;}
+	100%{bottom:50px;}
+	}
+	</style>
+  </head> 
+  <body>
+  <header>
+  <img src="images/font1.png" class="pic"/>
+  <div class="yun1"></div>
+  <div class="yun2"></div>
+  <div class="yun3"></div>
+  <div class="san"></div>
+  <div class="lu"></div>
+  <div class="mai1"></div>
+  <div class="mai2"></div>
+  <div class="mai3"></div>
+  <div class="mai4"></div>
+  </header>
+  
+  </body>
+</html>
